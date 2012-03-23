@@ -1,0 +1,9 @@
+#!/bin/bash
+
+f=$(pwd)
+
+ln -si $f/bash_profile ~/.bash_profile
+ln -si $f/bashrc ~/.bashrc
+ln -si $f/gemrc ~/.gemrc
+ln -si $f/vimrc ~/.vimrc
+ln -si $f/gitignore_global ~/.gitignore_global
