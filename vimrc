@@ -1,6 +1,7 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
+
 set nocompatible
 syntax enable
 set encoding=utf-8
