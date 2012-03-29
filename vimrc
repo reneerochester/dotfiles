@@ -1,6 +1,7 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
+au BufRead,BufNewFile *.scss set filetype=scss
 
 set nocompatible
 syntax enable
