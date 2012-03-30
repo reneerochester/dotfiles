@@ -209,6 +209,8 @@ function go()
     cd /Users/Shared/Settings/;;
   sc)
     cd ~/www/strategic-coach/application/;;
+  current)
+    cd /Library/WebServer/Applications/tsc_web/current/;;
   nginx)
     cd /opt/nginx/
   esac
