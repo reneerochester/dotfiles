@@ -16,3 +16,12 @@
 [submodule "vim/bundle/supertab"]
 	path = vim/bundle/supertab
 	url = https://github.com/tsaleh/vim-supertab.git
+[submodule "vim/bundle/vim-project"]
+	path = vim/bundle/vim-project
+	url = https://github.com/shemerey/vim-project.git
+[submodule "vim/bundle/searchcomplete"]
+	path = vim/bundle/searchcomplete
+	url = https://github.com/vim-scripts/SearchComplete.git
+[submodule "vim/bundle/taglist"]
+	path = vim/bundle/taglist
+	url = https://github.com/vim-scripts/taglist.vim.git

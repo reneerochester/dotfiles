@@ -137,6 +137,8 @@ alias gitexport='git archive --format zip --output source-tree-master.zip master
 
 alias gitcod='gitco develop'
 alias gitcor='gitco release'
+alias gitsma='git submodule add'
+
 
 # Git Flow
 alias gitfs='git flow feature start '
