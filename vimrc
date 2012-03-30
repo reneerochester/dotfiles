@@ -23,6 +23,9 @@ let g:miniBufExplModSelTarget = 1
 
 let g:rails_default_file='config/database.yml'
 
+
+set number
+
 "" Whitespace
 set nowrap                      " don't wrap lines
 set tabstop=2 shiftwidth=2      " a tab is two spaces
