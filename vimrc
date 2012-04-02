@@ -3,8 +3,19 @@ call pathogen#helptags()
 
 au BufRead,BufNewFile *.scss set filetype=scss
 
+" navigate splits vertically and horizontally by pressing ctrl+h j k l 
 map <C-J> <C-W>j<C-W>_
 map <C-K> <C-W>k<C-W>_
+map <C-H> <C-W>h<C-W>_
+map <C-L> <C-W>l<C-W>_
+
+" Window resizing mappings /*{{{*/
+map <silent> <A-h> <C-w><
+map <silent> <A-j> <C-W>-
+map <silent> <A-k> <C-W>+
+map <silent> <A-l> <C-w>>
+
+
 set wmh=0
 
 set nocompatible

@@ -158,6 +158,11 @@ alias svns='svn status'
 alias svnu='svn up'
 alias svnrmw='rm -rf `find . -type d -name .svn`'
 
+
+# RVM
+alias rvmrc='rvm --rvmrc --create'
+alias bundleit='gem install bundler;bundle;'
+
 #-------------------------------------------------------------
 # The 'ls' family (this assumes you use a recent GNU ls)
 #-------------------------------------------------------------
