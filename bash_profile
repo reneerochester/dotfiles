@@ -132,7 +132,7 @@ alias gplor='gplo release'
 alias gpshm='git push heroku master'
 alias gcp='git cherry-pick'
 alias gcpm='git cherry-pick -m1'
-alias gitname='git show --pretty="format:" --name-only '
+alias gitfiles='git show --pretty="format:" --name-only '
 alias gitexport='git archive --format zip --output source-tree-master.zip master '
 
 alias gitcod='gitco develop'
@@ -202,21 +202,19 @@ export GSC=gitolite@staging.tor.strategiccoach.com
 function go()
 {
   case $1 in
-  eh)
-    cd ~/www/hilscher/extend_health/;;
-  hil)
-    cd ~/www/hilscher/;;
   www)
     cd ~/www/;;
-  kk)
-    cd ~/www/hilscher/kultureklub;;
+  hil)
+    cd ~/www/hilscher/;;
+  sc)
+    cd ~/www/strategic-coach/;;
   set)
     cd /Users/Shared/Settings/;;
-  sc)
+  tsc)
     cd ~/www/strategic-coach/application/;;
-  current)
+  cur)
     cd /Library/WebServer/Applications/tsc_web/current/;;
-  nginx)
+  ngx)
     cd /opt/nginx/
   esac
 }
