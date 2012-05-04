@@ -206,6 +206,8 @@ function go()
     cd ~/www/;;
   hil)
     cd ~/www/hilscher/;;
+  kk)
+    cd ~/www/hilscher/kultureklub;;
   sc)
     cd ~/www/strategic-coach/;;
   set)
