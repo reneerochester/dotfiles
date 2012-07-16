@@ -134,6 +134,7 @@ alias gcp='git cherry-pick'
 alias gcpm='git cherry-pick -m1'
 alias gitfiles='git show --pretty="format:" --name-only '
 alias gitexport='git archive --format zip --output source-tree-master.zip master '
+alias gitdfc='git diff --color'
 
 alias gitcod='gitco develop'
 alias gitcor='gitco release'
