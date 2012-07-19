@@ -138,8 +138,8 @@ alias gitdfc='git diff --color'
 
 alias gitcod='gitco develop'
 alias gitcor='gitco release'
+alias gitcom='gitco master'
 alias gitsma='git submodule add'
-
 
 # Git Flow
 alias gitfs='git flow feature start '
@@ -206,19 +206,21 @@ function go()
   www)
     cd ~/www/;;
   hil)
-    cd ~/www/hilscher/;;
+    cd ~/www/hilscher/hilscher.ca;;
+  bc)
+    cd ~/www/hilscher/bellecarte/;;
   kk)
     cd ~/www/hilscher/kultureklub;;
   sc)
     cd ~/www/strategic-coach/;;
   set)
-    cd /Users/Shared/Settings/;;
+    cd ~/user_settings/;;
   tsc)
     cd ~/www/strategic-coach/application/;;
   cur)
     cd /Library/WebServer/Applications/tsc_web/current/;;
   ngx)
-    cd /opt/nginx/
+    cd /opt/nginx/;;
   esac
 }
 
