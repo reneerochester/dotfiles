@@ -206,7 +206,9 @@ function go()
   www)
     cd ~/www/;;
   hil)
-    cd ~/www/hilscher/hilscher.ca;;
+    cd ~/www/hilscher/;;
+  hild)
+    cd ~/www/hilscher/hilscherdesign.ca;;
   bc)
     cd ~/www/hilscher/bellecarte/;;
   kk)
@@ -216,7 +218,7 @@ function go()
   set)
     cd ~/user_settings/;;
   tsc)
-    cd ~/www/strategic-coach/application/;;
+    cd ~/www/strategic-coach/strategiccoach/;;
   cur)
     cd /Library/WebServer/Applications/tsc_web/current/;;
   ngx)
