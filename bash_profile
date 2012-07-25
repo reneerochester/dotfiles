@@ -213,6 +213,8 @@ function go()
     cd ~/www/hilscher/bellecarte/;;
   kk)
     cd ~/www/hilscher/kultureklub;;
+  mtb)
+     cd ~/www/hilscher/mtbonfestival/;;
   sc)
     cd ~/www/strategic-coach/;;
   set)
