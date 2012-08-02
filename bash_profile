@@ -106,7 +106,7 @@ alias m='mate .'
 alias o='open .'
 
 alias psg='ps -e | grep '
-
+alias break2comma='while read line; do echo -n "$line,"; done'
 #--------------------------
 # Version Control Aliases
 #--------------------------
@@ -135,7 +135,7 @@ alias gcpm='git cherry-pick -m1'
 alias gitfiles='git show --pretty="format:" --name-only '
 alias gitexport='git archive --format zip --output source-tree-master.zip master '
 alias gitdfc='git diff --color'
-
+alias grhh='git reset HEAD --hard'
 alias gitcod='gitco develop'
 alias gitcor='gitco release'
 alias gitcom='gitco master'
