@@ -163,6 +163,7 @@ alias svnrmw='rm -rf `find . -type d -name .svn`'
 # RVM
 alias rvmrc='rvm --rvmrc --create'
 alias bundle!='gem install bundler;bundle;'
+alias rebuild_test_db='rake db:drop RAILS_ENV=test; rake db:create RAILS_ENV=test; rake db:migrate RAILS_ENV=test; rake db:seed RAILS_ENV=test;'
 
 #-------------------------------------------------------------
 # The 'ls' family (this assumes you use a recent GNU ls)
