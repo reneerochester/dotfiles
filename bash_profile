@@ -2,8 +2,6 @@ if [ -f "$HOME/.bashrc" ] ; then
   source $HOME/.bashrc
 fi
 
-TSC_WEB=/Library/WebServer/Applications/tsc_web/current
-
 set -o vi
 set -o notify
 set -o noclobber
@@ -199,33 +197,23 @@ alias restartnginx='stopnginx; startnginx'
 #Git Repositories
 export GHIL=gitolite@hilscher.ca
 export GHUB=git@github.com:blakehilscher
-export GSC=gitolite@staging.tor.strategiccoach.com
+export GQ=git@github.com:quandl/
 
 function go()
 {
   case $1 in
-  www)
-    cd ~/www/;;
-  hil)
+  c)
+    cd ~/www/quandl/chef-repo/;;
+  h)
     cd ~/www/hilscher/;;
-  hild)
-    cd ~/www/hilscher/hilscherdesign.ca;;
-  bc)
-    cd ~/www/hilscher/bellecarte/;;
-  kk)
-    cd ~/www/hilscher/kultureklub;;
-  mtb)
-     cd ~/www/hilscher/mtbonfestival/;;
-  sc)
-    cd ~/www/strategic-coach/;;
-  set)
-    cd ~/user_settings/;;
-  tsc)
-    cd ~/www/strategic-coach/strategiccoach/;;
-  cur)
-    cd /Library/WebServer/Applications/tsc_web/current/;;
-  ngx)
+  n)
     cd /opt/nginx/;;
+  q)
+    cd ~/www/quandl/;;
+  w)
+    cd ~/www/quandl/wikiposit/;;
+  s)
+    cd ~/user_settings/;;
   esac
 }
 
