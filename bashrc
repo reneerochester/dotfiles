@@ -15,4 +15,4 @@ export PATH=$PATH:$EC2_HOME/bin
 export EC2_PRIVATE_KEY=$EC2_HOME/pk-blake.pem
 export EC2_CERT=$EC2_HOME/cert-blake.pem
 export EC2_SSH_PRIVATE_KEY=~/.ssh/quandl_3.pem
-export JAVA_HOME=/usr/libexec/java_home
+export JAVA_HOME="`/usr/libexec/java_home`"
